@@ -37,7 +37,7 @@ public class SimpleController {
 
     @GetMapping("/{name}.html")
     public String htmlMapping(@PathVariable(name = "name") String name, Model model) {
-        model.addAttribute("titel", StringUtils.capitalize(name));
+        model.addAttribute("titel", StringUtils.capitalize(name)+" Alfred ist cool");
 //        List<Wein> weine = createWeine();
 //        model.addAttribute("weine", weine);
 //        model.addAttribute("weine", weinRepository.findAll());
