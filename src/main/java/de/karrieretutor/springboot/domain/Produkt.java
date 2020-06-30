@@ -97,7 +97,7 @@ public class Produkt {
                 return "images/example-work03.jpg";
             case SUBKAT4:
                 return "images/example-work04.jpg";
-            case KEINE_AHNUNG:
+            case UNTERKATEGORIE5:
                 return "images/example-work05.jpg";
             default:
                return "images/example-work06.jpg";

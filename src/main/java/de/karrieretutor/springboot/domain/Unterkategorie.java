@@ -5,7 +5,11 @@ public enum Unterkategorie {
     SUBKAT2("enum.subcategory.2"),
     SUBKAT3("enum.subcategory.3"),
     SUBKAT4("enum.subcategory.4"),
-    KEINE_AHNUNG("enum.subcategory.unknown");
+    UNTERKATEGORIE5("enum.subcategory.5"),
+    UNTERKATEGORIE6("enum.subcategory.6"),
+    UNTERKATEGORIE7("enum.subcategory.7"),
+    UNTERKATEGORIE8("enum.subcategory.8"),
+    UNTERKATEGORIE9("enum.subcategory.9");
 
     private final String messageKey;
 
